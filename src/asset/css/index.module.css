@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Afacad Flux", sans-serif;
+    scroll-behavior: smooth
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+
+.home{
+    background-color: black;
+    width: 100%;
+    padding: 30px 70px;
+}
+
+/* HEADER FILE CSS  */
+
+.header {
+    padding: 30px 0;
+}
+
+.header_itself {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_title {
+    background: linear-gradient(to right, #9e43f9, #ff4891);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.link_menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.link:hover {
+    background: linear-gradient(to right, #9e43f9, #ff4891);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* MAIN FILE'S CSS */
+
+.main {
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 65px;
+    margin: 340px 0;
+    line-height: 70px;
+    height: 400px;
+
+    span {
+        color: gray;
+    }
+}
+
+.client_title {
+    width: 400px;
+    margin: 300px 0 0;
+}
+
+span {
+    color: gray;
+    font-weight: 500;
+}
+
+.project {
+    margin: 70px 0;
+
+    .project_slide {
+        width: 500px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.works {
+    margin: 300px 0;
+}
+
+.project_card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 150px 0;
+    gap: 200px;
+
+    div {
+        width: auto;
+
+        h4 {
+            color: gray;
+        }
+
+        h1 {
+            margin: 30px 0;
+            font-size: 28px;
+            line-height: 35px;
+            font-weight: 500;
+        }
+
+        button {
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            width: 160px;
+            height: 35px;
+            border-radius: 15px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        button:hover {
+            background: linear-gradient(to right, #9e43f9, #ff4891);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+    }
+}
+
+.project_card_reverse{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 150px 0;
+    gap: 200px;
+
+    div {
+        width: auto;
+
+        h4 {
+            color: gray;
+        }
+
+        h1 {
+            margin: 30px 0;
+            font-size: 28px;
+            line-height: 35px;
+            font-weight: 500;
+        }
+
+        button {
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            width: 160px;
+            height: 35px;
+            border-radius: 15px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        button:hover {
+            background: linear-gradient(to right, #9e43f9, #ff4891);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+    }
+}
+
+/* ABOUT ME CSS */
+
+.about_me{
+    margin: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+
+    h1{
+        margin: 30px 0;
+    }
+}
+
+.images_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    .image{
+        width: 350px;
+        height: 320px;
+        border: none;
+        border-radius: 30px;
+    }
+
+    div{
+
+        img{
+            margin: 20px 0;
+        }
+    }
+}
+
+.in_touch{
+    text-align: center;
+
+    h1{
+        font-size: 60px;
+    }
+
+    p{
+        font-size: 18px;
+        color: gray;
+    }
+
+    div{
+        margin: 50px 0;
+
+        svg{
+            cursor: pointer;
+        }
+    }
+
+    h4{
+        font-size: 20px;
+        margin: 50px 0;
+    }
+}
